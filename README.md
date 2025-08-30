@@ -30,11 +30,11 @@ This notebook walks through the following key steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Samridh-Minocha007/Project-Nova.git](https://github.com/Samridh-Minocha007/Project-Nova.git)
+    git clone https://github.com/sarthak-144/NovaScore-Partner-Segmentation-via-Unsupervised-Learning.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd Project-Nova
+    cd NovaScore-Partner-Segmentation-via-Unsupervised-Learning
     ```
 3.  **Install the required dependencies:**
     ```bash
@@ -42,7 +42,7 @@ This notebook walks through the following key steps:
     ```
 4.  **Open and run the Jupyter Notebook:**
     ```bash
-    jupyter notebook nova_prototype_new.ipynb
+    jupyter notebook main.ipynb
     ```
 
 ---

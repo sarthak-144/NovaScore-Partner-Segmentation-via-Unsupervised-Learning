@@ -2,15 +2,16 @@
 
 ## Introduction
 
-**Project-Nova** is a project that demonstrates the process of identifying and mitigating bias in a machine learning model. The project focuses on a scenario of predicting the creditworthiness of partners, where the initial dataset contains inherent biases based on gender and geographic location.
+Many gig economy workers, despite having consistent income, are "**credit invisible**." They lack the formal credit histories required by traditional financial institutions, creating a significant barrier to accessing loans for business investments or personal emergencies. This lack of access limits their economic mobility and potential for growth.
 
+**Project-Nova** directly addresses this challenge by demonstrating how to build a **fairer, more inclusive credit scoring model** for these individuals. Instead of relying on traditional credit data, this project shows how to use alternative data while actively identifying and mitigating biases based on factors like gender and location. The goal is to create a model that is not only predictive but also equitable. ⚖️
 
 This notebook walks through the following key steps:
-1.  **Generation of a biased dataset:** A synthetic dataset is created with intentional biases to simulate a real-world scenario.
-2.  **Bias detection and analysis:** The biases in the dataset are verified and analyzed.
-3.  **Model training:** A predictive model is trained on the biased dataset.
-4.  **Bias mitigation:** A mitigation technique is applied to the model's predictions to ensure fairness.
-5.  **Evaluation of mitigation impact:** The effect of the bias mitigation is analyzed and visualized.
+1.  **Simulating Real-World Data:** A synthetic dataset is created to mirror the financial activities of gig economy workers, intentionally including biases to replicate real-world challenges.
+2.  **Detecting and Analyzing Bias:** We use statistical methods to identify and understand the extent of biases within the dataset.
+3.  **Training a Baseline Model:** A predictive model is trained on the original, biased data to establish a baseline for performance.
+4.  **Applying Fairness Algorithms:** A mitigation technique is applied to the model's predictions to ensure equitable outcomes across different demographic groups.
+5.  **Evaluating the Impact:** The effect of the bias mitigation is analyzed and visualized to confirm the model is both accurate and fair.
 
 ![System Design](SystemDesign.png)
 ---

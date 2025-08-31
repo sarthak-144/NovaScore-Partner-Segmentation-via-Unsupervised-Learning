@@ -13,7 +13,7 @@ This notebook walks through the following key steps:
 4.  **Applying Fairness Algorithms:** A mitigation technique is applied to the model's predictions to ensure equitable outcomes across different demographic groups.
 5.  **Evaluating the Impact:** The effect of the bias mitigation is analyzed and visualized to confirm the model is both accurate and fair.
 
-![System Design](SystemDesign.png)
+![System Design](ref/SystemDesign.png)
 ---
 
 ## ✨ Features
